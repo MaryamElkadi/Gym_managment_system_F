@@ -27,7 +27,7 @@ const Communication = () => {
     const startEditing = () => {
         setDraftTemplate(template);
 
-        
+
         setEditingTemplate(true);
     };
 
@@ -176,9 +176,13 @@ const Communication = () => {
                         </div>
                     </div>
                 ) : (
+                    
+                    
                     <Text size="sm" className="mt-4 whitespace-pre-wrap text-slate-700 dark:text-slate-300">{template}</Text>
                 )}
             </Card>
+                                <Text size="sm" className="mt-4 whitespace-pre-wrap text-slate-700 dark:text-slate-300">{template}</Text>
+
         </div>
     );
 };
