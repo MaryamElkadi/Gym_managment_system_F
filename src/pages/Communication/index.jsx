@@ -26,6 +26,8 @@ const Communication = () => {
 
     const startEditing = () => {
         setDraftTemplate(template);
+
+        
         setEditingTemplate(true);
     };
 
